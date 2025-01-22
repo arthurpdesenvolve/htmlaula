@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Fomulario de Satisfação</title>
+    </head>
+    <body>
+        <h1>Formulario de Satisfação - Lava jato</h1>
+       <form>
+        <label for="email">E-mail </label>
+        <input type="text" id="email"> <br>
+        <label for="nome">Nome </label>
+        <input type="text" id="nome"> <br>
+        <label for="numero">Telefone </label>
+        <input type="number"  id="numero"> <br>
+
+        <p>
+            <label for="lavagem">Ficou satisfeito com a lavagem? Não</label>
+            <input type="radio" id="lavagem" name="sim">
+            <input type="radio" id="sats" name="sim">
+            <label for="sats">Sim</label>
+            <input type="text" id="pq">
+            <label for="pq">Se não, explique o motivo</label>
+        </p>
+        <p>
+            <label for="recp">Deixou a chave na recepção? Sim</label>
+            <input type="radio" id="recp">
+            
+
+        </p>
+        <p>
+            Qual foi o tipo da lavagem?
+            <select>
+                <option>Ducha</option>
+                <option >Ducha Primium</option>
+                <option>Ducha Completa</option>
+
+            </select>
+       </p>
+        <p>
+            <input type="checkbox" id="termos">
+            <label for="termos">Autoriza compartilhar sua resposta com terceiros?</label>
+        </p>
+       <input type="submit" value="Responder">
+
+       </form>
+    </body>
+</html>
